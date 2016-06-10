@@ -3,6 +3,6 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   def toy
-    render text: "¡Hola Mundo! Estoy aprendiendo Ruby on Rails, este es el segundo tutorial"
+    render text: "Probando la segunda aplicación en Heroku :v"
   end
 end
